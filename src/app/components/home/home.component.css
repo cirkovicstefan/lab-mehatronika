@@ -1,0 +1,13 @@
+
+.pocetna-txt{
+    background-color: antiquewhite;
+    border-radius: 2%;
+    padding: 40px;
+}
+
+@media(max-width:767px){
+
+    .vesti{
+        margin-top: 20px;
+    }
+}

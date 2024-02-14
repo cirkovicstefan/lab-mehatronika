@@ -1,0 +1,30 @@
+#foother{
+    width: 100%;
+    height: auto;
+    background-color: #23272a;
+    padding-top: 80px;
+
+}
+#foother .naslov{
+    font-weight:bold;
+    font-size: 35px;
+    color:#fff;
+}
+#foother .naslov  span{
+    color:#2a5ee8;
+}
+#foother hr{
+    border: 1px solid brown;
+    
+    
+}
+#foother .licenca{
+    float: right;
+}
+#foother .nav-link{
+    color:#ffffffff;
+}
+#foother .nav-link:hover{
+    text-decoration: underline;
+    
+}

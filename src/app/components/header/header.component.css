@@ -1,0 +1,63 @@
+.zaglavlje {
+
+  background-color: darkred;
+  /* background-image: url('../../../assets/red5.jfif'); */
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent;
+  /* Dodajemo transparentan donji obrub */
+  margin-right: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Skoro providna bela boja */
+  border-bottom: 2px solid white;
+  /* Dodajemo beli donji obrub tokom hovera */
+}
+
+
+.navbar1 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.naslov-katedre {
+  color: #E7E7E7;
+  font-size: 20px;
+}
+
+@media(max-width:800px){
+
+  .naslov-katedre{
+
+    font-size: 16px;
+
+  }
+  .naslov{
+    font-size: 18px;
+  }
+  .prvi-logo{
+    width: 58px;
+    height: 58px;
+  }
+  .drugi-logo{
+    width: 58px;
+    height: 58px;
+  }
+}
+
+
+
+
+.navbar-toggler-icon {
+ color: white;
+}
+.dropdown > button{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 5px;
+  /* transition: background-color 0.3s ease, color 0.3s ease, border-bottom 0.3s ease; */
+}
